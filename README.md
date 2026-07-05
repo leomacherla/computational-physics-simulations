@@ -28,7 +28,7 @@ Each simulation is a self-contained Jupyter notebook. Open in VS Code or Jupyter
 - outputs a video of the motion of the mass on the spring, created using [manim](https://github.com/ManimCommunity/manim)
 
 ![Mass-Spring Plot](assets/mass_spring_1.jpg)
-https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/main/assets/mass_spring_2.mp4
+![Mass-Spring GIF](assets/mass_spring_2_gif.gif)
 
 ### 3. Single-Pendulum Simulation
 - compares Euler's improved method and scipy's ivp solver to model a single pendulum with damping
@@ -36,29 +36,29 @@ https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/
 - outputs a video of the motion of the pendulum, created using [manim](https://github.com/ManimCommunity/manim)
 
 ![Single Pendulum Plot](assets/single_pendulum_1.jpg)
-https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/main/assets/single_pendulum_2.mp4
+![Single Pendulum GIF](assets/single_pendulum_2_gif.gif)
 
 ### 4. Double-Pendulum Simulation
 - simulates n double-pendulums, initially displaced 0.0001 degrees apart, using scipy's RK45 solver
 - generates a live playback of the motion the double pendulums using matplotlib
 
-https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/main/assets/double_pendulum.mp4
+![Double Pendulum GIF](assets/double_pendulum_gif.gif)
 
 ### 5. Lorenz Attractor Simulation
 - simulates a lorenz attractor using scipy's RK45 solver using the classic parameters σ=10, ρ=28, β=8/3
 - generates a live playback of the motion of the attractor using matplotlib
 
-https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/main/assets/lorenz_attractor.mp4
+![Lorenz Attractor GIF](assets/lorenz_attractor_gif.gif)
 
 ### 6. Two-Body Orbit Simulation
 - simulates the orbital motion of two bodies using scipy's RK45 solver and initial conditions similar to those of the Earth-Sun system
 - generates a live playback of the motion of the twπo bodies using matplotlib
 
-https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/main/assets/two_body.mp4
+![Two-Body Orbit GIF](assets/two_body_gif.gif)
 
 ### 7. Three-Body Orbit Simulation
 - simulates the orbital motion of three bodies using scipy's RK45 solver
 - includes the default initial conditions which reproduce the figure-8 periodic orbit discovered by Cris Moore in 1993 (see [Richard Montgomery's N-body page](https://people.ucsc.edu/~rmont/Nbdy.html))
 - generates a live playback of the motion of the three bodies using matplotlib
 
-https://github.com/leomacherla/computational-physics-simulations/raw/refs/heads/main/assets/three_body.mp4
+![Three-Body Orbit GIF](assets/three_body_gif.gif)
